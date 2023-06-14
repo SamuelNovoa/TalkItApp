@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/default_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddTeacherActivity">
+
+    <EditText
+        android:id="@+id/new_teacher_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white_hint"
+        android:ems="10"
+        android:hint="@string/nombre_del_profesor"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="@color/white_hint" />
+
+    <EditText
+        android:id="@+id/new_teacher_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white_hint"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/describe_la_personalidad_del_profesor"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:textColorHint="@color/white_hint" />
+
+    <RadioGroup
+        android:id="@+id/new_teacher_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:minHeight="70dp"
+        android:orientation="horizontal"
+        android:scaleX="3"
+        android:scaleY="3">
+
+        <RadioButton
+            android:id="@+id/new_teacher_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:button="@drawable/ic_female"
+            android:checked="true"
+            android:minWidth="0dp"
+            android:minHeight="70dp"
+            android:textAlignment="viewStart" />
+
+        <RadioButton
+            android:id="@+id/new_teacher_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/ic_male"
+            android:checked="false"
+            android:minWidth="0dp"
+            android:minHeight="70dp" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="onSubmit"
+        android:text="@string/guardar" />
+</LinearLayout>

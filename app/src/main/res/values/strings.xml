@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TalkIt</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="invalid_username">Usuario inválido</string>
+    <string name="invalid_password">La contraseña debe tener al menos 5 carácteres</string>
+    <string name="login_failed">Login fallido</string>
+    <string name="title_activity_teacher">Profesores</string>
+    <string name="navigation_drawer_open">Abrir navegación</string>
+    <string name="navigation_drawer_close">Cerrar navegación</string>
+    <string name="nav_header_title">Usuario</string>
+    <string name="nav_header_subtitle">usuario@usuario.com</string>
+    <string name="nav_header_desc">Cabecera de navegación</string>
+    <string name="action_settings">Opciones</string>
+
+    <string name="menu_home">Conversar</string>
+    <string name="menu_gallery">Profesores</string>
+    <string name="logout">Salir</string>
+    <string name="describe_la_personalidad_del_profesor">Describe la personalidad del profesor</string>
+    <string name="nombre_del_profesor">Nombre del profesor</string>
+    <string name="guardar">Guardar</string>
+</resources>
